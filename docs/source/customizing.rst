@@ -61,7 +61,7 @@ config options indicating the extra directories to search for templates. Be care
 locations included.
 
 When using the commandline the extra template paths are added by calling
-``--TemplateExporter.extra_template_basedirs=path/you/want/included``.
+``--TemplateExporter.extra_template_basedirs=[\"path/you/want/included\"]``.
 
 
 The content of nbconvert templates
